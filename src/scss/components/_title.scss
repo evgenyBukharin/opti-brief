@@ -1,0 +1,31 @@
+.title {
+	margin: 0;
+	line-height: 1.2;
+	&__h2 {
+		font-size: 26px;
+		font-weight: 700;
+		color: var(--black-color);
+		margin-bottom: 18px;
+	}
+	&__h3 {
+		font-size: 16px;
+		font-weight: 400;
+		color: var(--black-color);
+		margin-bottom: 14px;
+		&-bold {
+			padding-top: 20px;
+			font-weight: 600;
+			padding-bottom: 10px;
+			border-bottom: 1px solid var(--border-color);
+		}
+		&-first {
+			padding-top: 0;
+		}
+	}
+	&__h4 {
+		font-size: 14px;
+		font-weight: 400;
+		color: var(--black-color);
+		margin-bottom: 8px;
+	}
+}

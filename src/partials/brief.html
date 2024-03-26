@@ -1,0 +1,373 @@
+<section class="brief">
+	<div class="container brief__container">
+		<div class="brief__row">
+			<h2 class="title title__h2">Мы ценим Ваше время!</h2>
+			<h3 class="title title__h3">
+				Именно поэтому, мы предлагаем Вам экспресс-бриф - всего за 1-3 минуты вы опишите то, что Вам нужно
+			</h3>
+			<h3 class="title title__h3">Перед тем как начать, расслабьтесь, подумайте о чем-то хорошем</h3>
+		</div>
+		<form class="brief__form">
+			<div class="brief__row">
+				<h2 class="title title__h2">Данные о компании</h2>
+				<div class="brief__body">
+					<div class="brief__row-inner">
+						<h4 class="title title__h4">Опишите вашу задачу</h4>
+						<textarea class="brief__textarea" name="task_description" id="task_description"></textarea>
+					</div>
+					<div class="brief__row-inner">
+						<h4 class="title title__h4">Название компании</h4>
+						<input class="brief__input" name="name_company" id="name_company" type="text" />
+					</div>
+					<h3 class="title title__h3 title__h3-bold">Контактные данные для представления на сайте</h3>
+					<div class="brief__row-inner">
+						<h4 class="title title__h4">Ваше имя</h4>
+						<input class="brief__input" name="name" id="name" type="text" />
+					</div>
+					<div class="brief__row-inner">
+						<h4 class="title title__h4">Ваш телефон</h4>
+						<div class="brief__container-input">
+							<input class="brief__input" name="phone-0" id="phone-0" type="text" />
+							<button class="btn-reset brief__button brief__button-clone">
+								<svg class="brief__plus">
+									<use xlink:href="./img/sprite.svg#plus"></use>
+								</svg>
+								Добавить
+							</button>
+						</div>
+						<div class="brief__container-clones"></div>
+					</div>
+					<div class="brief__row-inner">
+						<h4 class="title title__h4">Email</h4>
+						<div class="brief__container-input">
+							<input class="brief__input" name="email-0" id="email-0" type="text" />
+							<button class="btn-reset brief__button brief__button-clone">
+								<svg class="brief__plus">
+									<use xlink:href="./img/sprite.svg#plus"></use>
+								</svg>
+								Добавить
+							</button>
+						</div>
+						<div class="brief__container-clones"></div>
+					</div>
+					<div class="brief__row-inner">
+						<h4 class="title title__h4">Skype</h4>
+						<input class="brief__input" name="Skype" id="Skype" type="text" />
+					</div>
+					<h3 class="title title__h3 title__h3-bold">Чем занимается Ваша компания</h3>
+					<div class="brief__row-inner">
+						<textarea
+							class="brief__textarea"
+							name="description_company"
+							id="description_company"
+						></textarea>
+					</div>
+					<h3 class="title title__h3 title__h3-bold">Основные преимущества Вашей компании</h3>
+					<div class="brief__row-inner">
+						<input class="brief__input" name="benefits" id="benefits" type="text" />
+					</div>
+					<h3 class="title title__h3 title__h3-bold">Отличия от конкурентов</h3>
+					<div class="brief__row-inner brief__row-flex">
+						<h3 class="title title__h3">
+							Основные преимущества Вашего товара или услуги, отличия от конкурентов
+						</h3>
+						<textarea class="brief__textarea" name="difference" id="difference"></textarea>
+					</div>
+					<h3 class="title title__h3 title__h3-bold">Информация о конкурентах</h3>
+					<div class="brief__row-inner brief__row-flex">
+						<h3 class="title title__h3">Имеющиеся конкуренты - название компаний и их сайты</h3>
+						<textarea class="brief__textarea" name="concurents" id="concurents"></textarea>
+					</div>
+				</div>
+			</div>
+			<div class="brief__row">
+				<h2 class="title title__h2">Фирменный стиль</h2>
+				<div class="brief__body">
+					<div class="brief__row-inner brief__row-radio">
+						<label class="brief__label" for="style1">
+							<input type="radio" class="brief__radio" name="style" id="style1" value="Есть" />
+							<div class="brief__mark"></div>
+							Есть
+						</label>
+						<label class="brief__label" for="style2">
+							<input type="radio" class="brief__radio" name="style" id="style2" value="Нет, создать" />
+							<div class="brief__mark"></div>
+							Нет, создать
+						</label>
+						<label class="brief__label" for="style3">
+							<input type="radio" class="brief__radio" name="style" id="style3" value="Не использовать" />
+							<div class="brief__mark"></div>
+							Не использовать
+						</label>
+					</div>
+					<div class="brief__row-inner">
+						<textarea class="brief__textarea" name="concurents" id="concurents"></textarea>
+						<label class="brief__label brief__label-file" for="firmStyleFile">
+							<svg class="brief__screpka">
+								<use xlink:href="img/sprite.svg#screpka"></use>
+							</svg>
+							<span>Прикрепить</span>
+							<input
+								class="brief__input-file"
+								name="firmStyleFile"
+								id="firmStyleFile"
+								type="file"
+								multiple
+							/>
+						</label>
+					</div>
+				</div>
+			</div>
+			<div class="brief__row">
+				<h2 class="title title__h2">Кто Ваша целевая аудитория?</h2>
+				<div class="brief__body">
+					<div class="brief__row-inner brief__row-radio">
+						<label class="brief__label" for="gender1">
+							<input type="radio" class="brief__radio" name="gender" id="gender1" value="Мужчины" />
+							<div class="brief__mark"></div>
+							Мужчины
+						</label>
+						<label class="brief__label" for="gender2">
+							<input type="radio" class="brief__radio" name="gender" id="gender2" value="Женщины" />
+							<div class="brief__mark"></div>
+							Женщины
+						</label>
+						<label class="brief__label" for="gender3">
+							<input
+								type="radio"
+								class="brief__radio"
+								name="gender"
+								id="gender3"
+								value="Мужчины и женщины"
+							/>
+							<div class="brief__mark"></div>
+							Мужчины и женщины
+						</label>
+					</div>
+					<div class="brief__row-inner">
+						<h4 class="title title__h4">Возраст</h4>
+						<input class="brief__input" name="age" id="age" type="text" />
+					</div>
+					<div class="brief__row-inner">
+						<h4 class="title title__h4">Уровень дохода</h4>
+						<input class="brief__input" name="salary" id="salary" type="text" />
+					</div>
+					<div class="brief__row-inner">
+						<h4 class="title title__h4">Основная причина обращения к Вам</h4>
+						<input class="brief__input" name="reason" id="reason" type="text" />
+					</div>
+				</div>
+			</div>
+			<div class="brief__row">
+				<h2 class="title title__h2">Дизайн сайта</h2>
+				<div class="brief__body">
+					<h3 class="title title__h3 title__h3-bold title__h3-first">
+						Какие разделы должны обязательно быть на сайте?
+					</h3>
+					<div class="brief__row-inner brief__row-checkboxes">
+						<div class="brief__container-checkbox">
+							<input
+								class="brief__checkbox"
+								type="checkbox"
+								name="services-chapter"
+								id="services-chapter"
+								value="Услуги"
+							/>
+							<label class="brief__label brief__label-checkbox" for="services-chapter">
+								<span></span>
+								Услуги
+							</label>
+						</div>
+						<div class="brief__container-checkbox">
+							<input
+								class="brief__checkbox"
+								type="checkbox"
+								name="catalog-chapter"
+								id="catalog-chapter"
+								value="Каталог продукции"
+							/>
+							<label class="brief__label brief__label-checkbox" for="catalog-chapter">
+								<span></span>
+								Каталог продукции
+							</label>
+						</div>
+						<div class="brief__container-checkbox">
+							<input
+								class="brief__checkbox"
+								type="checkbox"
+								name="contacts-chapter"
+								id="contacts-chapter"
+								value="Контакты"
+							/>
+							<label class="brief__label brief__label-checkbox" for="contacts-chapter">
+								<span></span>
+								Контакты
+							</label>
+						</div>
+						<div class="brief__container-checkbox">
+							<input
+								class="brief__checkbox"
+								type="checkbox"
+								name="portfolio-chapter"
+								id="portfolio-chapter"
+								value="Портфолио"
+							/>
+							<label class="brief__label brief__label-checkbox" for="portfolio-chapter">
+								<span></span>
+								Портфолио
+							</label>
+						</div>
+						<div class="brief__container-checkbox">
+							<input
+								class="brief__checkbox"
+								type="checkbox"
+								name="docs-chapter"
+								id="docs-chapter"
+								value="Документы"
+							/>
+							<label class="brief__label brief__label-checkbox" for="docs-chapter">
+								<span></span>
+								Документы
+							</label>
+						</div>
+						<div class="brief__container-checkbox">
+							<input
+								class="brief__checkbox"
+								type="checkbox"
+								name="partners-chapter"
+								id="partners-chapter"
+								value="Партнерам"
+							/>
+							<label class="brief__label brief__label-checkbox" for="partners-chapter">
+								<span></span>
+								Партнерам
+							</label>
+						</div>
+						<div class="brief__container-checkbox">
+							<input
+								class="brief__checkbox"
+								type="checkbox"
+								name="support-chapter"
+								id="support-chapter"
+								value="Тех поддержка"
+							/>
+							<label class="brief__label brief__label-checkbox" for="support-chapter">
+								<span></span>
+								Тех поддержка
+							</label>
+						</div>
+						<div class="brief__container-checkbox">
+							<input
+								class="brief__checkbox"
+								type="checkbox"
+								name="cabinet-chapter"
+								id="cabinet-chapter"
+								value="Личный кабинет"
+							/>
+							<label class="brief__label brief__label-checkbox" for="cabinet-chapter">
+								<span></span>
+								Личный кабинет
+							</label>
+						</div>
+						<div class="brief__container-checkbox">
+							<input
+								class="brief__checkbox"
+								type="checkbox"
+								name="vacancies-chapter"
+								id="vacancies-chapter"
+								value="Вакансии"
+							/>
+							<label class="brief__label brief__label-checkbox" for="vacancies-chapter">
+								<span></span>
+								Вакансии
+							</label>
+						</div>
+						<div class="brief__container-checkbox">
+							<button class="btn-reset brief__button brief__button-chapter">
+								<svg class="brief__plus">
+									<use xlink:href="./img/sprite.svg#plus"></use>
+								</svg>
+								Добавить
+							</button>
+						</div>
+					</div>
+					<div class="brief__row-inner brief__container-clones brief__row-newchapters"></div>
+					<h3 class="title title__h3 title__h3-bold">Примеры проектов, которые нравятся и не нравятся</h3>
+					<div class="brief__row-inner brief__row-columns">
+						<div class="brief__column">
+							<div class="brief__row-inner">
+								<h4 class="title title__h4">Примеры проектов, которые нравятся</h4>
+								<input class="brief__input" name="goodProjects" id="goodProjects" type="text" />
+							</div>
+							<div class="brief__row-inner">
+								<h4 class="title title__h4">Почему нравятся</h4>
+								<textarea class="brief__textarea" name="whyGood" id="whyGood"></textarea>
+							</div>
+						</div>
+						<div class="brief__column">
+							<div class="brief__row-inner">
+								<h4 class="title title__h4">Примеры проектов, которые не нравятся</h4>
+								<input class="brief__input" name="badBrojects" id="badBrojects" type="text" />
+							</div>
+							<div class="brief__row-inner">
+								<h4 class="title title__h4">Почему нравятся</h4>
+								<textarea class="brief__textarea" name="whyBad" id="whyBad"></textarea>
+							</div>
+						</div>
+					</div>
+					<div class="brief__row-inner brief__row-radio brief__row-radio-column">
+						<label class="brief__label" for="color1">
+							<input
+								type="radio"
+								class="brief__radio"
+								name="color"
+								id="color1"
+								value="Только цвета фирменного стиля и оттенки (если есть)"
+							/>
+							<div class="brief__mark"></div>
+							Только цвета фирменного стиля и оттенки (если есть)
+						</label>
+						<label class="brief__label" for="color2">
+							<input
+								type="radio"
+								class="brief__radio"
+								name="color"
+								id="color2"
+								value="Цвета фирменного стиля и любые сочетаемые с ними"
+							/>
+							<div class="brief__mark"></div>
+							Цвета фирменного стиля и любые сочетаемые с ними
+						</label>
+						<label class="brief__label" for="color3">
+							<input
+								type="radio"
+								class="brief__radio"
+								name="color"
+								id="color3"
+								value="Мягкие пастельные цвета"
+							/>
+							<div class="brief__mark"></div>
+							Мягкие пастельные цвета
+						</label>
+						<label class="brief__label" for="color4">
+							<input
+								type="radio"
+								class="brief__radio"
+								name="color"
+								id="color4"
+								value="На усмотрение дизайнера"
+							/>
+							<div class="brief__mark"></div>
+							На усмотрение дизайнера
+						</label>
+					</div>
+					<div class="brief__row-inner">
+						<h4 class="title title__h4">Предложить свое</h4>
+						<input class="brief__input" name="otherColors" id="otherColors" type="text" />
+					</div>
+				</div>
+				<button class="btn-reset brief__button-submit">Отправить</button>
+			</div>
+		</form>
+	</div>
+</section>
